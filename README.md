@@ -1,5 +1,5 @@
-###【Requisito previo】
-####〔Azure Sponsorships〕
+### 【Requisito previo】
+#### 〔Azure Sponsorships〕
 Antes de empezar con cualquiera de las practicas mostradas por su servidor, es necesario verificar si contamos con la posibilidad de emplear las herramientas de Microsoft Azure.
 Para ello, es necesario realizar la siguiente verificación:
 
@@ -22,7 +22,7 @@ Con esto, ya podemos saber si disponemos del uso de los servicios de Azure. Para
 
 Una vez dicho todo esto, podemos empezar.
 
-#【Azure】
+# 【Azure】
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/150px-Microsoft_Azure.svg.png)
 
@@ -32,7 +32,7 @@ Una vez dicho todo esto, podemos empezar.
 
 -------
 
-#【Introducción a Azure】
+# 【Introducción a Azure】
 Azure es un conjunto de servicios en la nube en expansión constante que ayudan a las organizaciones a cumplir los desafíos empresariales actuales y futuros. Azure le ofrece la libertad de compilar, administrar e implementar aplicaciones en una red global masiva mediante sus herramientas y plataformas favoritas.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/640px-Microsoft_Azure_Logo.svg.png)
@@ -43,8 +43,8 @@ Muchos equipos comienzan a explorar la nube mediante la migración de sus aplica
 
 Por ejemplo, Azure proporciona servicios de inteligencia artificial y aprendizaje automático que pueden comunicarse naturalmente con los usuarios mediante la vista, el oído y la voz. También facilita soluciones de almacenamiento que crecen dinámicamente para dar cabida a grandes cantidades de datos. Los servicios de Azure permiten soluciones que no son factibles sin la potencia de la nube.
 
-##〔Categorías y servicios de Azure〕
-###〔Compute〕
+## 〔Categorías y servicios de Azure〕
+### 〔Compute〕
 Proporciona servicios de cómputo o procesamiento bajo demanda. Por ejemplo:
 - Maquinas virtuales (VM).
 - Kubernetes.
@@ -55,7 +55,7 @@ Proporciona servicios de cómputo o procesamiento bajo demanda. Por ejemplo:
 ![](https://connectoricons-prod.azureedge.net/releases/v1.0.1555/1.0.1555.2715/azurevm/icon.png)
 > Azure Virtual Machine.
 
-###〔Network〕
+### 〔Network〕
 Proporciona servicios de red que permiten conectar los recursos con el mundo exterior. Por ejemplo:
 - Azure Virtual Network.
 - Azure Traffic Manager.
@@ -65,7 +65,7 @@ Proporciona servicios de red que permiten conectar los recursos con el mundo ext
 ![](https://symbols.getvecta.com/stencil_27/99_virtual-network.e43fa52244.png)
 > Azure Virtual Network.
 
-###〔Storage〕
+### 〔Storage〕
 Proporciona servicios de almacenamiento de archivos y objetos. Por ejemplo:
 - Azure Blob Storage.
 - Azure File Storage.
@@ -75,7 +75,7 @@ Proporciona servicios de almacenamiento de archivos y objetos. Por ejemplo:
 ![](https://symbols.getvecta.com/stencil_27/89_storage-table.5f25f9c0b3.png)
 > Azure File Storage.
 
-###〔Database (DB)〕
+### 〔Database (DB)〕
 Proporciona servicios de bases de datos para una amplia variedad de tipos y volumenes de datos. Por ejemplo:
 - Cosmos DB.
 - Azure SQL Database.
@@ -84,7 +84,7 @@ Proporciona servicios de bases de datos para una amplia variedad de tipos y volu
 ![](https://www.pinclipart.com/picdir/big/125-1259340_how-to-easily-start-using-cosmosdb-in-your.png)
 > Azure Cosmos DB.
 
-###〔Web〕
+### 〔Web〕
 Proporciona servicios para compilar y hospedar aplicaciones y servicios web basados en HTTP. Por ejemplo:
 - Azure App Service.
 - Azure Notification Hubs.
@@ -96,7 +96,7 @@ Proporciona servicios para compilar y hospedar aplicaciones y servicios web basa
 ![](https://stefanos.cloud/wp-content/uploads/2021/09/Azure-App-Service-Redundancy-e1631817455805.png)
 > Azure App Service.
 
-###〔Internet of Things (IoT)〕
+### 〔Internet of Things (IoT)〕
 Proporciona servicios de IoT para conectar y recibir información de sensores, relojes inteligentes, maquinaria, etc. Por ejemplo:
 - IoT Central.
 - Azure IoT hub.
@@ -105,7 +105,7 @@ Proporciona servicios de IoT para conectar y recibir información de sensores, r
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--Dj-3QzhG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://gloveboxes.github.io/iot-central-mxchip-hol/media/azure_iot_central.png)
 > Azure IoT hub.
 
-###〔Big Data〕
+### 〔Big Data〕
 Porporciona servicios para el procesamiento y análisis de grandes cantidades de registros. Por ejemplo:
 - Azure Synapse Analytics.
 - Azure Databricks.
@@ -114,7 +114,7 @@ Porporciona servicios para el procesamiento y análisis de grandes cantidades de
 ![](https://symbols.getvecta.com/stencil_27/51_hdinsight.c90b5f74e0.png)
 > Azure HDInsight.
 
-###〔Inteligencia Artificial (IA)〕
+### 〔Inteligencia Artificial (IA)〕
 Proporciona servicios de aprendizaje automático (prefabricados o no). Por ejemplo:
 - Azure Machine Learning Service.
 - Azure Machine Learning Studio.
@@ -123,7 +123,7 @@ Proporciona servicios de aprendizaje automático (prefabricados o no). Por ejemp
 ![](https://miro.medium.com/max/382/1*xr5cOLRaJZuqSeaWoKHsnA.png)
 > Azure Cognitive Services.
 
-###〔DevOps〕
+### 〔DevOps〕
 Ayuda a los equipos de desarrollo de software a automatizar y hacer eficientes sus procesos. Por ejemplo:
 - Azure DevOps.
 - Azure DevTest Labs.
@@ -132,3 +132,228 @@ Ayuda a los equipos de desarrollo de software a automatizar y hacer eficientes s
 > Azure DevOps.
 
 --------------
+
+# 【Practica 1 - Página Wordpress con Azure App Service】
+### 〔Creación de la página Wordpress〕
+1. Entramos al siguiente enlace: https://portal.azure.com/
+![Portal de Azure](https://i.imgur.com/tS5Ky0l.png)
+> Página Portal de Microsoft Azure.
+
+2. Empezamos buscando en la barra de busquedas "**Marketplace**". Podemos definir Marketplace como un conexión entre los Usuarios y los Partners de Microsoft, los cuales son proveedores de software independientes y nuevas empresas que ofrecen sus soluciones y servicios, optimizados para ser utilizados en Azure.
+![](https://i.imgur.com/2jYMqh5.png)
+
+3. Aquí podemos navegar entre los distintos complementos y software que se nos brinda de parte de Microsoft u otros proveedores, los cuales están listos para usarse a nuestro gusto.
+![](https://i.imgur.com/dxGRQYJ.png)
+> Interfaz de busqueda de Marketplace.
+
+4. **Nota:** Existe la posibilidad de conseguir software de terceros de empresas "competencia" de Microsoft, como se muestran en las imagenes:
+![](https://i.imgur.com/GARmRlu.png)
+![](https://i.imgur.com/8fktJ2t.png)
+
+5. En el buscador de Marketplace, escribimos: **WordPress**.
+6. Seleccionamos el primero:
+![](https://i.imgur.com/WUjPBHT.png)
+
+7. Seguidamente elegimos el plan "WordPress" y luego en **Crear**.
+![](https://i.imgur.com/0Lfc2iL.png)
+> Al momento de finalizar las configuraciones, nos creará varios recursos de Azure. Estos mismos serán explicados posteriormente en esta misma práctica.
+
+8. Ahora entramos en la pantalla de configuraciones del recurso "**WordPress**" empleando "**App Service**" (Recurso **encargado** de todo lo relacionado a **Web**)
+![](https://i.imgur.com/P9yb82Q.png)
+
+9. **MUY IMPORTANTE**: Lo minimo que todo recurso de Azure **necesita** para ser creado son 4 cosas fundamentales: **Suscripción**, **Grupo de recursos**, **Región** y **Nombre del recurso**
+
+10. Suscripción: En este caso, solo contamos con la suscripción de tipo **Estudiante**, y es la que seleccionamos.
+![](https://i.imgur.com/Cgh7uOU.png)
+
+11. Grupo de recursos: Si no hemos tocado nada por el momento, nos encontraremos sin ningún grupo de recursos; por ende, debemos crear uno. Podemos ver los grupos de recursos como "carpetas" de nuestros recursos. En mi caso, yo le puse **Practica1_Darki** (Darki es mi sobrenombre)
+![](https://i.imgur.com/uf2uLx9.png)
+> De este modo iré nombrando tanto mis grupos de recursos como mis demás elementos que ocupe en todas mis prácticas para mejor organización.
+
+12. Región: Aquí elegimos en que región de Azure estará localizado nuestro recurso. En este caso elegí **Australia East** (y esto es debido a que nuestra suscripción no cuenta con toda la cobertura de regiones que ofrece Azure, impidiendonos configurar ciertos parametros de nuestros recursos; esto quiere decir: Australia tiene bastante facilidad para operar de esta forma siendo estudiantes)
+![](https://i.imgur.com/gZdYd7J.png)
+
+13. Nombre del recurso: Y por ultimo, asignamos el nombre que llevará nuestro recurso y con el cual se le identificará. En mi caso usé: **PagWordpress-P1**
+![](https://i.imgur.com/en9kG7I.png)
+> Algo a tener en cuenta es que el Sistema Operativo con el cual se trabajará dependerá del gusto del usuario, en mi caso yo elegí Windows, pero pude haber elegido Linux sin problema.
+
+14. Ahora, pasamos a un apartado **NO OBLIGATORIO**, pero **SI IMPORTANTE**, las **Etiquetas**. Estas cumplen 3 funciones: 1) Sacar reportes de costos, 2) Cumplir normativas de seguridad y, 3) Para brindar información a algún asociado que no se familiarice con Azure.
+![](https://i.imgur.com/NoYBpf2.png)
+> Ejemplo de uso de etiquetas.
+
+15. Después de la configuración anterior, le damos en "**Revisar y crear**". Nos posiciona en la siguiente pestaña, en la cual nos mostrará los datos generales de nuestro recurso, tantos los que vimos previamente, como el S.O. a utilizar, el plan que usaremos (Al igual que el crédito que se nos cobrará en caso de ser un servicio de paga), y el rendimiento que tendrá dicho recurso (como vemos en la imagen, contará con 1GB de memoria)
+![](https://i.imgur.com/LzzOvg3.png)
+
+16. También nos creará una instancia de Base de Datos MySQL:
+![](https://i.imgur.com/rZO5Deh.png)
+
+17. Finalmente, le damos clic al botón **Crear**
+
+18. Una vez Azure haya verificado que todos los datos están correctos, empezará a hacer la implementación (no es más que la creación de cada recurso necesario para el correcto funcionamiento de nuestro recurso App Service, clasificados en nuestro grupo de recursos antes creado).
+![](https://i.imgur.com/e3XbP0w.png)
+![](https://i.imgur.com/B3koZ4g.png)
+> La implementación se completó. Ahora podemos **Ir al recurso**
+
+19. Una vez le demos al botón, nos redirigirá al panel de configuración de todo el recurso Azure a profundidad, tanto si se quiere editar la Escalabilidad, Seguridad, Control de acceso, y muchas cosas más que se irán describiendo a lo largo de las demás prácticas.
+![](https://i.imgur.com/G6hHiYb.png)
+> Para la explicación del siguiente subtema, hacemos clic en la **URL** que se nos proporciona.
+
+### 〔Configuración y vista predeterminada de WordPress〕
+Para empezar, aquí veremos la configuración requerida por WordPress, necesaria para ser instalado adecuadamente, al igual que mostrar como acceder al panel de Administración.
+
+1. Empezamos con la configuración de nuestro WordPress. Iniciando con la selección del **idioma**
+![](https://i.imgur.com/iyZng7C.png)
+
+2. Rellenamos los datos solicitados, tales como **Nombre de la pagina**, **Usuario**, **Contraseña**, **Correo electrónico**, etc. Esto con el fin de identificarnos a nosotros como los propietarios de la página, y que se nos brinde el acceso a la **Edición** de la misma.
+![](https://i.imgur.com/WnGVzNl.png)
+![](https://i.imgur.com/YwuvVlB.png)
+> Seguidamente, damos clic en **Instalar WordPress**
+
+3. Se nos da indicación de que WordPress ha quedado instalado, configurado y listo para ser usado/visualizado.
+![](https://i.imgur.com/etxxiFG.png)
+
+4. Por el momento, la página solo muestra una plantilla por defecto que trae WordPress al inicio, pero que conforme a nuestros conocimientos, podremos ir cambiando a nuestro gusto o a petición del cliente.
+![](https://i.imgur.com/VMmB11t.png)
+
+5. Si en la barra de dirección, le anexamos /wp/admin, entraremos en el login de WordPress, ahí colocaremos nuestros datos de registro que hicimos previamente, y nos dará acceso total a la manipulación de la página.
+![](https://i.imgur.com/3Jwmw7B.png)
+![](https://i.imgur.com/uvCStqB.png)
+
+6. Para finalizar este tema, aquí tenemos la interfaz de administrador de WordPress. Ahora tenemos control total sobre la modificación de la página, la cual veremos en el tema **Rediseño y acabados finales**.
+![](https://i.imgur.com/vKLBxIv.png)
+
+
+### 〔Explicación de componentes del grupo de recursos〕
+En este tema, explicaré cada parte que compone nuestro grupo de recursos, para darnos una mejor idea de que ocurrió al momento de crear nuestro App Service.
+
+Nuestro grupo de recursos se llama **Practica1_Darki**. De forma simple, así se llama nuestra carpeta que contiene nuestros recursos creados por Azure.
+En esta podemos encontrar 3 elementos:
+- **PagWordpress-P1** (de tipo App Service)
+- **ASP-Practica1Darki** (de tipo Plan de App Service)
+- **dbserver** (de tipo S.U de Azure Database for MySQL)
+[Quiero explicarlos en este orden]
+![](https://i.imgur.com/saZDT8w.png)
+
+1. Primero, tenemos nuestro recurso **App Service** llamado PagWordpress-P1. Es el encargado de almacenar toda la instalación y configuración de Wordpress, así como la página en si. (Recordemos que App Service sirve para todo lo relacionado a aplicaciones Web)
+![](https://i.imgur.com/irGfAPd.png)
+
+2. Continuamos con **Plan de App Service**, ASP-Practica1Darki. Bien, este recurso podemos definirlo como el encargado de manipular/ajustar la cantidad de memoria o almacenamiento asignado al recurso. Recordemos que en el tema anterior dije que el plan seleccionado le asignó a nuestra página una memoria de 1GB. Con eso en mente, este recurso es capaz de alterar ese valor para incrementarlo si llegase a ser necesario por cuestiones de limitaciones o para evitar saturación.
+![](https://i.imgur.com/P8nxJtL.png)
+>⠀
+![](https://i.imgur.com/JdHwBcS.png)
+> Escalabilidad Vertical.
+![](https://i.imgur.com/l6xsmeo.png)
+> Escalabilidad Horizontal. (en este caso, así es)
+
+3. El ultimo recurso, dbserver es un recurso de tipo **Database for MySQL**. Es el encargado de almacenar información/datos del usuario, recopila todo lo relacionado al cliente o persona que se conecte a la página e ingrese algún dato. Ejemplo, supongamos que pedimos al usuario que nos brinde su **Nombre** y **Dirección de correo** para que nosotros le mandemos información de actualizaciones. Estos datos serán almacenados directamente en nuestra base de datos, para que podamos posteriormente trabajar con ellos.
+![](https://i.imgur.com/3hwvYkQ.png)
+
+De los tres recursos, este es el más pesado de mantener, debido a que es un servicio de paga caro para una "primera página" o una página de principiantes. Es por eso que se nos hizo énfasis en apagar o borrar este recurso una vez concluida esta práctica.
+Aquí les indico como apagar el recurso antes mencionado:
+- Basta con darle al botón **Detener**, y seguidamente darle en **Si**
+![](https://i.imgur.com/6IcObhc.png)
+![](https://i.imgur.com/ZYmqrc4.png)
+> Servicio apagado.
+
+### 〔Rediseño y acabados finales de la página WordPress〕
+
+https://i.imgur.com/EzKcsMK.png)
+https://i.imgur.com/ZnILfON.png)
+https://i.imgur.com/OZs4WvT.png)
+https://i.imgur.com/wHBrYUH.png)
+https://i.imgur.com/Tvtixwk.png)
+https://i.imgur.com/pGwoS8r.png)
+https://i.imgur.com/qDVnoop.png)
+https://i.imgur.com/f0dIhBL.png)
+https://i.imgur.com/yCtgbw5.png)
+https://i.imgur.com/1IJ4pA6.png)
+
+![](https://i.imgur.com/SLAAfJQ.gif)
+
+#Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+##Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+###Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+
+                
+----
+
+
+
+###Blockquotes
+
+> Blockquotes
+
+Paragraphs and Line Breaks
+                    
+> "Blockquotes Blockquotes", [Link](http://localhost/)。
+
+
+###Images
+
+Image:
+
+![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+
+> Follow your heart.
+
+![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+
+> 图为：厦门白城沙滩 Xiamen
+
+图片加链接 (Image + Link)：
+
+[![](https://pandao.github.io/editor.md/examples/images/7.jpg)](https://pandao.github.io/editor.md/examples/images/7.jpg "李健首张专辑《似水流年》封面")
+
+> 图为：李健首张专辑《似水流年》封面
+                
+----
+
+###Lists
+
+####Unordered list (-)
+
+- Item A
+- Item B
+- Item C
+     
+####Ordered list
+                
+1. Item A
+2. Item B
+3. Item C
+                
+----
+                    
+###Tables
+                    
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell 
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+| Function name | Description                    |
+| ------------- | ------------------------------ |
+| `help()`      | Display the help window.       |
+| `destroy()`   | **Destroy your computer!**     |
+
+| Item      | Value |
+| --------- | -----:|
+| Computer  | $1600 |
+| Phone     |   $12 |
+| Pipe      |    $1 |
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+                
+----
+
+
+###End
