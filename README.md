@@ -102,7 +102,7 @@ Proporciona servicios de IoT para conectar y recibir información de sensores, r
 - Azure IoT hub.
 - IoT Edge.
 
-![](https://res.cloudinary.com/practicaldev/image/fetch/s--Dj-3QzhG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://gloveboxes.github.io/iot-central-mxchip-hol/media/azure_iot_central.png)
+![](https://2yqpsp4hm422vu40d2itdbu1-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/azure-iot.png)
 > Azure IoT hub.
 
 ### 〔Big Data〕
@@ -255,105 +255,34 @@ Aquí les indico como apagar el recurso antes mencionado:
 ![](https://i.imgur.com/ZYmqrc4.png)
 > Servicio apagado.
 
+![](https://i.imgur.com/EzKcsMK.png)
+> Al intentar abrir nuestra página de WordPress, nos mostrará el siguiente mensaje de error, esto es porque falta la base de datos necesaria para que funcione.
+
 ### 〔Rediseño y acabados finales de la página WordPress〕
+Para finalizar con la práctica, explicaré paso a paso como fue que rediseñe la página Default que brinda WordPress, a una página con diseño profesional. Anexaré al final un gif de como se mira la página completa.
 
-https://i.imgur.com/EzKcsMK.png)
-https://i.imgur.com/ZnILfON.png)
-https://i.imgur.com/OZs4WvT.png)
-https://i.imgur.com/wHBrYUH.png)
-https://i.imgur.com/Tvtixwk.png)
-https://i.imgur.com/pGwoS8r.png)
-https://i.imgur.com/qDVnoop.png)
-https://i.imgur.com/f0dIhBL.png)
-https://i.imgur.com/yCtgbw5.png)
-https://i.imgur.com/1IJ4pA6.png)
+1. Añadimos un tema. Para esto nos vamos a la pestaña **Apariencia** y luego en **Temas**; después en **Añadir tema**. Para esta ocasión elegí el tema ***"Astra"***.
+![](https://i.imgur.com/ZnILfON.png)
+> El tema es la estructura del sitio.
 
+2. Lo **instalamos** y luego lo **activamos**.
+3. Seguido de eso, nos dirigimos al apartado **Plugins**>**Plugins instalados**, y eliminamos todos. Estos plugins son los que se instalan por defecto junto con WordPress, así que no nos serán de utilidad.
+4. Ahora, en **Añadir nuevo**, buscamos lo siguiente: **Astra Starter Sites** (también conocido como **Starter Templates**). Procederemos a **Instalar** y **Activar**
+![](https://i.imgur.com/OZs4WvT.png)
+
+5. De nueva cuenta en la pestaña de **Plugins instalados**, clic en **Ver biblioteca** del **Starter Templates**.
+6. Se nos pedirá elegir un **Maquetador**. Se le podría considerar como un complemento que tiene WordPress para poder permitirnos editar cualquier parte de la página. Elegimos **Elementor**.
+![](https://i.imgur.com/Tvtixwk.png)
+
+7. Ahora, el plugin nos desplegará un montón de plantillas de sitios Web, listos para instalar, usar y modificar como nosotros queramos (o como quiera el cliente).
+![](https://i.imgur.com/qDVnoop.png)
+
+8. Una vez elegida la plantilla, le das al botón **Importar el sitio completo**. Algo super útil de este plugin, es que automaticamente nos instalará y configurará los plugins necesarios respecto a la plantilla seleccionada para que ésta funcione de la manera correcta.
+![](https://i.imgur.com/f0dIhBL.png)
+> Astra configurando todo lo que la plantilla necesita para funcionar.
+
+9. Listo, creado y configurado.
+![](https://i.imgur.com/yCtgbw5.png)
+
+Para finalizar, les dejo este GIF de como se ve a detalle la página completa una vez finalizado el diseño/modificación.
 ![](https://i.imgur.com/SLAAfJQ.gif)
-
-#Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-##Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-###Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-
-                
-----
-
-
-
-###Blockquotes
-
-> Blockquotes
-
-Paragraphs and Line Breaks
-                    
-> "Blockquotes Blockquotes", [Link](http://localhost/)。
-
-
-###Images
-
-Image:
-
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
-
-> Follow your heart.
-
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
-
-> 图为：厦门白城沙滩 Xiamen
-
-图片加链接 (Image + Link)：
-
-[![](https://pandao.github.io/editor.md/examples/images/7.jpg)](https://pandao.github.io/editor.md/examples/images/7.jpg "李健首张专辑《似水流年》封面")
-
-> 图为：李健首张专辑《似水流年》封面
-                
-----
-
-###Lists
-
-####Unordered list (-)
-
-- Item A
-- Item B
-- Item C
-     
-####Ordered list
-                
-1. Item A
-2. Item B
-3. Item C
-                
-----
-                    
-###Tables
-                    
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-| Function name | Description                    |
-| ------------- | ------------------------------ |
-| `help()`      | Display the help window.       |
-| `destroy()`   | **Destroy your computer!**     |
-
-| Item      | Value |
-| --------- | -----:|
-| Computer  | $1600 |
-| Phone     |   $12 |
-| Pipe      |    $1 |
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
-                
-----
-
-
-###End
