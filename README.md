@@ -302,4 +302,4 @@ Para finalizar con la práctica, explicaré paso a paso como fue que rediseñe l
 
 # 【Resultado final】 
 Para finalizar, les dejo este GIF de como se ve a detalle la página completa una vez finalizado el diseño/modificación.
-![](https://i.imgur.com/oZvV4wG.gif)
+![](https://i.imgur.com/oZvV4wG.gifv)
