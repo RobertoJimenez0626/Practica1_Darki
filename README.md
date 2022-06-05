@@ -301,5 +301,5 @@ Para finalizar con la práctica, explicaré paso a paso como fue que rediseñe l
 ![](https://i.imgur.com/yCtgbw5.png)
 
 # 【Resultado final】 
-Para finalizar, les dejo este GIF de como se ve a detalle la página completa una vez finalizado el diseño/modificación.
-![](https://i.imgur.com/oZvV4wG.gif)
+Para finalizar, les dejo este VIDEO de como se ve a detalle la página completa una vez finalizado el diseño/modificación.
+[![](https://yt-embed.herokuapp.com/embed?v=-xTWCwV8PPg)](https://www.youtube.com/watch?v=-xTWCwV8PPg "Practica1 - Darki")
