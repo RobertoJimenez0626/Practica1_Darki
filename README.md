@@ -28,7 +28,23 @@ Una vez dicho todo esto, podemos empezar.
 
 **Tabla de Contenidos**
 
-[TOC]
+ - [Introducción a Azure](#introducción-a-azure)
+    - [Categorías y servicios de Azure](#categorías-y-servicios-de-azure)
+        - [Compute](#compute)
+        - [Network](#network)
+        - [Storage](#storage)
+        - [Database (DB)](#database-db)
+        - [Web](#web)
+        - [Internet of Things (IoT)](#internet-of-things-iot)
+        - [Big Data](#big-data)
+        - [Inteligencia Artificial (IA)](#inteligencia-artificial-ia)
+        - [DevOps](#devops)
+- [Practica 1](#practica-1---página-wordpress-con-azure-app-service)
+    - [Creación de la página WordPress](#creación-de-la-página-wordpress)
+    - [Configuración y vista predeterminada de WordPress](#configuración-y-vista-predeterminada-de-wordpress)
+    - [Explicación de componentes del grupo de recursos](#explicación-de-componentes-del-grupo-de-recursos)
+    - [Rediseño y acabados finales de la página WordPress](#rediseño-y-acabados-finales-de-la-página-wordpress)
+- [Resultado final](#resultado-final)
 
 -------
 
@@ -284,5 +300,6 @@ Para finalizar con la práctica, explicaré paso a paso como fue que rediseñe l
 9. Listo, creado y configurado.
 ![](https://i.imgur.com/yCtgbw5.png)
 
+# 【Resultado final】 
 Para finalizar, les dejo este GIF de como se ve a detalle la página completa una vez finalizado el diseño/modificación.
-![](https://i.imgur.com/SLAAfJQ.gif)
+![](https://i.imgur.com/i0EbhB0.gif)
