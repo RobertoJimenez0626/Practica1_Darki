@@ -159,7 +159,7 @@ Ayuda a los equipos de desarrollo de software a automatizar y hacer eficientes s
 ![](https://i.imgur.com/2jYMqh5.png)
 
 3. Aquí podemos navegar entre los distintos complementos y software que se nos brinda de parte de Microsoft u otros proveedores, los cuales están listos para usarse a nuestro gusto.
-![](https://i.imgur.com/dxGRQYJ.png)
+![](https://i.imgur.com/JRfnKtL.png)
 > Interfaz de busqueda de Marketplace.
 
 4. **Nota:** Existe la posibilidad de conseguir software de terceros de empresas "competencia" de Microsoft, como se muestran en las imagenes:
